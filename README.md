@@ -1,1 +1,1 @@
-# rsschool-cv
+https://horoshere.github.io/rsschool-cv/cv
