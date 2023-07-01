@@ -17,30 +17,14 @@ I know I'm capable of more. It is in my interests to develop myself throughout m
  * Git
  * Figma
  ### Code example
- *example of one simple react class component*:
  ```javascript
-    const MovieList = ({data}) => {
-
-        const element = data.map(item => {
-            return (
-                <Movie 
-                key={item.id}
-                id={item.id}
-                title={item.title}
-                year={item.year}
-                summary={item.summary}
-                poster={item.medium_cover_image}
-                genres={item.genres}
-                rating={item.rating}
-                bigPoster={item.large_cover_image} />
-            )
-        });
-
-        return (
-            <ul className="movies">
-                {element}
-            </ul>
-        )
+    function simpleMultiplication(number) {
+        if (number % 2 === 0) {
+            number = number * 8
+        } else {
+            number = number * 9
+        }
+        return number;
     }
 ```
 
