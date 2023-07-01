@@ -17,7 +17,7 @@ I know I'm capable of more. It is in my interests to develop myself throughout m
  * Git
  * Figma
  ### Code example
- example of one simple react class component:
+ *example of one simple react class component*:
  ```javascript
     const MovieList = ({data}) => {
 
