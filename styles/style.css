@@ -69,6 +69,11 @@ h3 {
     font-weight: 300;
 }
 
+.aboutme_skills-list ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
 .aboutme_skills-list li {
     font-weight: 300;
 }
@@ -113,7 +118,7 @@ h3 {
 }
 
 .footer_wrapper {
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
