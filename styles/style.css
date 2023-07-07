@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap&subset=cyrillic-ext');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #0d1117;
+    color: #E6EDF3;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.aboutme_photo {
+    margin-top: 40px;
+}
+
+.aboutme_photo img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.aboutme_title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.aboutme_subtitle {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.aboutme_wrapper {
+    width: 820px;
+    /* margin: 0 auto; */
+    margin-top: 40px;
+    /* padding: 0 100px; */
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.aboutme_welcome, .aboutme_skills, .aboutme_education, .aboutme_portfolio {
+    padding: 20px;
+    box-shadow: 0 0 1px 0;
+    border-radius: 6px;
+}
+
+.aboutme_welcome-text {
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.aboutme_skills-list {
+    padding: 0;
+    list-style-position: inside;
+}
+
+.aboutme_skills-list li {
+    font-weight: 300;
+}
+
+.aboutme_education ul {
+    padding: 0;
+    font-weight: 400;
+    list-style-position: inside;
+}
+.aboutme_education-university li, .aboutme_education-courses li {
+    font-weight: 300;
+}
+
+.aboutme_portfolio-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie_app {
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: 0.3s all;
+}
+
+.movie_app:hover {
+    transform: scale(1.1);
+}
+
+.movie_app-image {
+    width: 100%;
+    border-radius: 10px;
+    filter: brightness(40%);
+    transition: 0.3s all;
+}
+
+.movie_app-image:hover {
+    filter: none;
+}
+
+
+.footer {
+    margin-top: 40px;
+    background-color: #010409;
+}
+
+.footer_wrapper {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_contacts {
+    display: flex;
+    align-items: center;
+}
+
+.footer_contacts a {
+    margin-right: 5px;
+
+}
+
+.rsschool {
+    width: 100px;
+    height: 45px;
+}
+
+  
